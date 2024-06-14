@@ -62,11 +62,11 @@
         }
         .learning-activities{
             width: 100%;
-            height: 500px;
+            min-height: 500px;
             background-image: url(../image/starnadmilkyway.svg); 
             background-repeat: no-repeat;
             background-position: top;
-            background-size:100% 100%; 
+            background-size:200% auto; 
            /* or cover, depending on your needs */
             
         }
