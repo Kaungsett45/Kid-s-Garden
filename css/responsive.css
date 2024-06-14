@@ -11,6 +11,9 @@
         nav .menu-list-none {
             display: none ;
         }
+        .logo-container{
+            margin-right:23%;
+        }
         .logo-container img{
             max-width: 20%;
         }
@@ -21,6 +24,15 @@
             min-height: 400px;
             background-size: fit; /* or cover, depending on your needs */
             
+        }
+        .learning-activities h2, .green-land h2{
+            margin: 0;
+            padding-top: 6%;
+            text-align: center;
+            color: #102D76;
+            font-size: 2rem;
+            font-weight: 500;
+             font-family: "Roboto Serif", serif;
         }
     }
     
