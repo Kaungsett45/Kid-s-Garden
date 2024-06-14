@@ -1,6 +1,11 @@
 
-body{
+
+body {
+    margin: 0;
     font-size: 1rem;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden; /* Prevent horizontal overflow */
 }
 
 .navigation{
@@ -116,6 +121,12 @@ nav .menu{
     align-items: center;
     padding-bottom: 23%;
     margin-top:80px;
+  
+}
+.learning-category a{
+   display: flex;
+   justify-content: center;
+   align-items: center;
   
 }
 .categories-dudu {

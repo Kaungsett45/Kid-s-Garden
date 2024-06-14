@@ -40,9 +40,7 @@
             font-weight: 500;
              font-family: "Roboto Serif", serif;
         }
-        .learning-activities{
-            margin: 0px 10px;
-        }
+       
         .learning-category{
             display: grid;
             grid-template-columns: repeat(2, 1fr); /* Two columns */
