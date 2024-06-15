@@ -261,20 +261,11 @@ a{
     top: 200%; /* Position the menu items just below the navigation */
     right: 0;
     width: 50%;
-    background-color: rgb(174, 74, 74);
+    background-color: rgb(255, 255, 255);
     box-shadow: 0px 4px 8px rgba(0,0,0,0.1);
     z-index: 3;
 }
-.nav-container nav .menu-list-one {
-    display: flex; /* Hide the menu items initially */
-    position: absolute;
-    top: 100%; /* Position the menu items just below the navigation */
-    right: 0;
-    width: 50%;
-    background-color: rgb(174, 74, 74);
-    box-shadow: 0px 4px 8px rgba(0,0,0,0.1);
-    z-index: 3;
-}
+
 .menu-list-none p {
     margin: 0;
     padding: 10px 20px;
