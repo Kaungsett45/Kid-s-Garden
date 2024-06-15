@@ -65,6 +65,9 @@ nav .menu{
     background-image: url(../image/oneandonly.svg); 
     background-size: cover; /* or cover, depending on your needs */
     background-position: center;
+    border-bottom-left-radius: 15% 8%;
+     border-bottom-right-radius: 15% 8%;
+     background-clip: content-box;
     
 }
 
