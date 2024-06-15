@@ -112,6 +112,7 @@
             margin-top: 80px;
           
         }
+       
         .categories-dudu {
             width: 150px !important; /* Fixed width for the container */
             border:4px solid #102D76; /* Background color */
@@ -122,5 +123,5 @@
         .categories-dudu img {
             max-width: 100%; /* Scale image to 100% of the container's width */
         }
-
+       
     }

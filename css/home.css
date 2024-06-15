@@ -207,7 +207,7 @@ a{
     font-family: "Roboto Serif", serif;
 }
 .para p{
-    min-width:50%;
+    min-width:50%  !important;
     color: white;
      font-size: 1.1rem;
     font-family: "Roboto Serif", serif;
