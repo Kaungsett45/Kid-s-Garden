@@ -70,6 +70,16 @@
            /* or cover, depending on your needs */
             
         }
+        .para p{
+            max-width:60%;
+            color: white;
+             font-size: 0.8rem;
+        }
+        .para div p{
+            margin-right:0px;
+           font-size: 0.7rem;
+            font-family: "Roboto Serif", serif;
+        }
        
     }
     
