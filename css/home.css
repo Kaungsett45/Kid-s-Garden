@@ -256,7 +256,7 @@ a{
     z-index: 45;
 }
 .nav-container nav .menu-list-none {
-    display: flex; /* Hide the menu items initially */
+    display: none; /* Hide the menu items initially */
     position: absolute;
     top: 200%; /* Position the menu items just below the navigation */
     right: 0;
