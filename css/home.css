@@ -1,4 +1,18 @@
 
+button:focus,
+input:focus,
+textarea:focus,
+select:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.5); /* Customize as needed */
+}
+
+/* Specific style for your menu button */
+.menu:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.5);
+}
+
 
 body {
     margin: 0;
