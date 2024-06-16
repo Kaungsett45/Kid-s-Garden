@@ -7,9 +7,6 @@ select:focus {
     box-shadow: 0 0 0 3px rgba(255, 50, 5, 0.5); /* Customize as needed */
 }
 
-a{
-    color:black;
-}
 #false-icon{
     display:none;
 }
@@ -23,12 +20,21 @@ body {
 }
 
 .navigation{
+    position: -webkit-sticky; 
+    position:sticky;
+    top: 0;
     background-color: white;
-
+    
+   
+    z-index: 2000;
 }
 .menu-list-none .text ,.menu-list-one .text {
     font-size:1.5rem;
     margin: 0px;
+    color:black;
+    width:100%;
+    display:block;
+    padding:10px 0px;
     text-decoration: none;
     padding: 0px;
     cursor: pointer;
