@@ -1,5 +1,5 @@
 /* Medium Phones (Portrait) */
-@media (max-width: 883px) {
+@media only screen and (max-width: 883px) {
     .nav-container nav {
         min-width: 35%;
     }
@@ -39,7 +39,7 @@
             font-size:3.5rem !important;
         }
 }
-@media  (max-width: 815px) {
+@media only screen and  (max-width: 815px) {
     .logo-container{
         margin-right:23%;
     }
@@ -73,7 +73,7 @@
     
 
 }
-    @media  (max-width: 667px) {
+    @media only screen and  (max-width: 667px) {
         
         .navigation { 
             position: -webkit-sticky; 
@@ -208,7 +208,7 @@
        
     }
 
-    @media (max-width: 500px) {
+    @media only screen and (max-width: 500px) {
        
        .nav-container nav .menu{
              margin-left:70%;
@@ -237,7 +237,7 @@
   
     }
 
-    @media (max-width: 401px) {
+    @media only screen and (max-width: 401px) {
         .logo-container{
          
             margin-right:20%;
