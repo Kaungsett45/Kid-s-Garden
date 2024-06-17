@@ -1,3 +1,23 @@
+@media only screen and (min-width: 883px) {
+    .nav-container nav {
+        min-width: 25%;
+    }
+ 
+    .logo-container{
+        margin-right:23%;
+    }
+    .logo-container h2{
+       font-size:2.2rem;
+    }
+    .logo-container img{
+        max-width: 90%;
+    }
+    .footer-container img{
+        min-width: 10%;
+    }
+  
+}
+
 /* Medium Phones (Portrait) */
 @media only screen and (max-width: 883px) {
     .nav-container nav {
@@ -11,7 +31,10 @@
        font-size:2.2rem;
     }
     .logo-container img{
-        max-width: 80%;
+        max-width: 90%;
+    }
+    .footer-container img{
+        min-width: 10%;
     }
     .learning-category{
         display: grid;
@@ -36,8 +59,10 @@
        height:750px !important;
       }
         .opening-picture .title{
-            font-size:3.5rem !important;
+            font-size:3.5rem;
         }
+
+
 }
 @media only screen and  (max-width: 815px) {
     .logo-container{
@@ -136,8 +161,8 @@
         .logo-container img{
             max-width: 80%;
         }
-        .opening-picture .title{
-            font-size:3.5rem;
+        .opening-picture h2{
+            font-size:2.5rem;
         }
         .opening-picture {
             min-height: 450px;
@@ -240,9 +265,14 @@
     }
 
     @media only screen and (max-width: 430px) {
+
+       
         .logo-container{
          
             margin-right:20%;
+        }
+        .learning-activities h2, .green-land h2{
+            font-size:2rem;
         }
         nav .menu{
             margin-left:70%;
@@ -272,8 +302,9 @@
             max-width: 60%; /* Scale image to 100% of the container's width */
         }
         .green-land {
-            height: 70dvh  !important;
+            height: 72dvh  !important;
            }
+           
        
     }
 
@@ -305,6 +336,7 @@
     }
     @media only screen and (max-width: 330px) {
       
+
         .logo-container img{
             max-width: 55%;
         }
@@ -320,6 +352,13 @@
         .green-land {
             height: 550px !important;
            }
+           .opening-picture .title{
+           font-size:2.2rem ;
+           
+        }
+        .learning-activities h2, .green-land h2{
+            font-size:1.5rem;
+        }
        
     }
 
