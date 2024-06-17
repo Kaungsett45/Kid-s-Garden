@@ -33,7 +33,7 @@
         max-width: 70%; /* Scale image to 100% of the container's width */
     }
     .green-land {
-       height: 70dvh !important;
+       height:750px !important;
       }
         .opening-picture .title{
             font-size:3.5rem !important;
@@ -43,6 +43,7 @@
     .logo-container{
         margin-right:23%;
     }
+ 
     nav li{
         font-size:1.8rem !important;
     }
@@ -58,7 +59,7 @@
       
     }
     .green-land {
-        height: 75dvh !important;
+        height: 105dvh !important;
        }
     .categories-dudu {
         width: 250px !important; /* Fixed width for the container */
@@ -208,7 +209,7 @@
        
     }
 
-    @media only screen and (max-width: 500px) {
+    @media only screen and (max-width: 550px) {
        
        .nav-container nav .menu{
              margin-left:70%;
@@ -225,7 +226,7 @@
             max-width:70%;
         }
         .green-land {
-            height: 80dvh  !important;
+            height: 90dvh  !important;
            }
            .categories-dudu {
             margin: 10px 10px;
@@ -238,7 +239,7 @@
   
     }
 
-    @media only screen and (max-width: 401px) {
+    @media only screen and (max-width: 430px) {
         .logo-container{
          
             margin-right:20%;
@@ -271,7 +272,53 @@
             max-width: 60%; /* Scale image to 100% of the container's width */
         }
         .green-land {
-            height: 80dvh  !important;
+            height: 70dvh  !important;
+           }
+       
+    }
+
+    @media only screen and (max-width: 380px) {
+      
+        .logo-container img{
+            max-width: 65%;
+        }
+        .learning-category{
+            display: grid;
+            grid-template-columns: repeat(2, 1fr); /* Two columns */
+            grid-gap: 10px; /* Space between items */
+           
+            margin-top: 80px;
+        }
+       
+        .categories-dudu {
+            width: 160px !important; /* Fixed width for the container */
+            border:4px solid #102D76; /* Background color */
+            border-radius: 55px; /* Rounded corners */
+            text-align: center; /* Center the text */
+            box-sizing: border-box; /* Include padding and border in the element's total width and height */
+        }
+      
+        .green-land {
+            height: 92dvh  !important;
+           }
+       
+    }
+    @media only screen and (max-width: 330px) {
+      
+        .logo-container img{
+            max-width: 55%;
+        }
+       
+        .categories-dudu {
+            width: 142px !important; /* Fixed width for the container */
+            border:4px solid #102D76; /* Background color */
+            border-radius: 55px; /* Rounded corners */
+            text-align: center; /* Center the text */
+            box-sizing: border-box; /* Include padding and border in the element's total width and height */
+        }
+        
+        .green-land {
+            height: 550px !important;
            }
        
     }
