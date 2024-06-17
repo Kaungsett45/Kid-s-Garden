@@ -33,7 +33,7 @@
         max-width: 70%; /* Scale image to 100% of the container's width */
     }
     .green-land {
-       height: 750px  !important;
+       height: 750svh !important;
       }
         .opening-picture .title{
             font-size:3.5rem !important;
@@ -58,7 +58,7 @@
       
     }
     .green-land {
-        height: 700px !important;
+        height: 700svh !important;
        }
     .categories-dudu {
         width: 250px !important; /* Fixed width for the container */
@@ -225,7 +225,7 @@
             max-width: 41%;
         }
         .green-land {
-            height: 530px  !important;
+            height: 530svh  !important;
            }
            .categories-dudu {
             width: 180px !important; /* Fixed width for the container */
@@ -271,7 +271,7 @@
             max-width: 60%; /* Scale image to 100% of the container's width */
         }
         .green-land {
-            height: 500px  !important;
+            height: 500svh  !important;
            }
        
     }
