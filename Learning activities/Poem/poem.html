@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Poem</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lilita+One&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz@8..144&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="../../css/home.css">
+<link rel="stylesheet" href="./css/poem.css">
+
+<link rel="stylesheet" href="./css/poemresponsive.css">
+<link rel="stylesheet" href="../../css/responsive.css">
+</head>
+
+
+</head>
+
+<body>
+    <div class="navigation">
+        <div class="yellow-color"></div>
+            <div class="nav-container">
+                <div class="logo-container">
+                    <img src="../../image/Oak Tree.svg" alt="Logo" class="responsive-img">
+                    <!-- <h2>Kid's Garden</h2> -->
+                </div>
+                <nav>
+                        <li class="menu"><p id="menu-icon"><i class="fa-solid fa-bars" ></i></p><p id="false-icon"><i class="fa-solid fa-x"></i></p></li>
+                        <div class="menu-container-list">
+                            <li class="menu-list-none"><a class="text" href="../../index.html">Learing</a></li>
+                            <li class="menu-list-one"><a class="text"  href="#Gamingoops">Gaming</a></li>
+                        </div>
+                </nav>
+            </div>
+            
+    </div>
+    <!--navigationend-->
+
+    
+  
+    <div class="section">
+        
+                 <div class="container">
+        
+                    <video class="play1" width="700" height="400" controls>
+                        <source src="video/abcd.mp4" type="video/mp4">
+                    </video>
+
+                    <video class="play2 hidden" width="700" height="400" controls>
+                        <source src="video/twinkle.mp4" type="video/mp4">
+                    </video>
+
+                    <video class="play3 hidden" width="700" height="400" controls>
+                        <source src="video/farmerinthedell.mp4" type="video/mp4">
+                    </video>
+
+                    <video class="play4 hidden" width="700" height="400" controls>
+                        <source src="video/hickory.mp4" type="video/mp4">
+                    </video>
+
+                    <video class="play5 hidden" width="700" height="400" controls>
+                        <source src="video/fivelittleduck.mp4" type="video/mp4">
+                    </video>
+
+
+                        <div class="buttons">
+                            <button onclick="pre()" class="next">PREVIOUS <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 35 35" fill="none">
+                                <path opacity="0.16" d="M4.37594 20.026C2.43198 18.903 2.43198 16.0972 4.37594 14.9743L17.5009 7.39679C19.4449 6.27387 21.8759 7.67678 21.8759 9.92262V25.0776C21.8759 27.3235 19.4449 28.7264 17.5009 27.6035L4.37594 20.026Z" fill="black"/>
+                                <path d="M21.8759 9.92262L26.2509 7.39679C28.1949 6.27387 30.6259 7.67678 30.6259 9.92262V25.0776C30.6259 27.3235 28.1949 28.7264 26.2509 27.6035L21.8759 25.0776M21.8759 9.92262V25.0776M21.8759 9.92262C21.8759 7.67678 19.4449 6.27387 17.5009 7.39679L4.37594 14.9743C2.43198 16.0972 2.43198 18.903 4.37594 20.026L17.5009 27.6035C19.4449 28.7264 21.8759 27.3235 21.8759 25.0776" stroke="black" stroke-width="2" stroke-linejoin="round"/>
+                                </svg>
+                            </button>
+
+                            
+                            <button onclick="pause(count)" class="next pause hidden">PAUSE <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 35 35" fill="none">
+                                <path opacity="0.2" d="M28.4375 6.5625V28.4375C28.4375 28.7276 28.3223 29.0058 28.1171 29.2109C27.912 29.416 27.6338 29.5312 27.3438 29.5312H21.875C21.5849 29.5312 21.3067 29.416 21.1016 29.2109C20.8965 29.0058 20.7812 28.7276 20.7812 28.4375V6.5625C20.7812 6.27242 20.8965 5.99422 21.1016 5.7891C21.3067 5.58398 21.5849 5.46875 21.875 5.46875H27.3438C27.6338 5.46875 27.912 5.58398 28.1171 5.7891C28.3223 5.99422 28.4375 6.27242 28.4375 6.5625ZM13.125 5.46875H7.65625C7.36617 5.46875 7.08797 5.58398 6.88285 5.7891C6.67773 5.99422 6.5625 6.27242 6.5625 6.5625V28.4375C6.5625 28.7276 6.67773 29.0058 6.88285 29.2109C7.08797 29.416 7.36617 29.5312 7.65625 29.5312H13.125C13.4151 29.5312 13.6933 29.416 13.8984 29.2109C14.1035 29.0058 14.2188 28.7276 14.2188 28.4375V6.5625C14.2188 6.27242 14.1035 5.99422 13.8984 5.7891C13.6933 5.58398 13.4151 5.46875 13.125 5.46875Z" fill="black"/>
+                                <path d="M27.3438 4.375H21.875C21.2948 4.375 20.7384 4.60547 20.3282 5.0157C19.918 5.42594 19.6875 5.98234 19.6875 6.5625V28.4375C19.6875 29.0177 19.918 29.5741 20.3282 29.9843C20.7384 30.3945 21.2948 30.625 21.875 30.625H27.3438C27.9239 30.625 28.4803 30.3945 28.8905 29.9843C29.3008 29.5741 29.5312 29.0177 29.5312 28.4375V6.5625C29.5312 5.98234 29.3008 5.42594 28.8905 5.0157C28.4803 4.60547 27.9239 4.375 27.3438 4.375ZM27.3438 28.4375H21.875V6.5625H27.3438V28.4375ZM13.125 4.375H7.65625C7.07609 4.375 6.51969 4.60547 6.10945 5.0157C5.69922 5.42594 5.46875 5.98234 5.46875 6.5625V28.4375C5.46875 29.0177 5.69922 29.5741 6.10945 29.9843C6.51969 30.3945 7.07609 30.625 7.65625 30.625H13.125C13.7052 30.625 14.2616 30.3945 14.6718 29.9843C15.082 29.5741 15.3125 29.0177 15.3125 28.4375V6.5625C15.3125 5.98234 15.082 5.42594 14.6718 5.0157C14.2616 4.60547 13.7052 4.375 13.125 4.375ZM13.125 28.4375H7.65625V6.5625H13.125V28.4375Z" fill="black"/>
+                                </svg>
+                            </button>
+
+
+                            <button onclick="play(count)" class="next play">PLAY <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 35 35" fill="none">
+                                <path opacity="0.2" d="M31.2033 18.4146L11.5049 30.4623C11.3405 30.5621 11.1527 30.6168 10.9604 30.6208C10.7682 30.6249 10.5782 30.5782 10.4098 30.4855C10.2413 30.3927 10.1003 30.2572 10.0009 30.0925C9.90153 29.9279 9.84732 29.7399 9.84375 29.5477V5.45234C9.84732 5.26007 9.90153 5.07213 10.0009 4.90748C10.1003 4.74284 10.2413 4.6073 10.4098 4.51455C10.5782 4.42179 10.7682 4.37509 10.9604 4.37915C11.1527 4.38322 11.3405 4.4379 11.5049 4.5377L31.2033 16.5854C31.3607 16.6806 31.4908 16.8148 31.5811 16.975C31.6714 17.1353 31.7189 17.3161 31.7189 17.5C31.7189 17.6839 31.6714 17.8647 31.5811 18.025C31.4908 18.1852 31.3607 18.3194 31.2033 18.4146Z" fill="black"/>
+                                <path d="M31.7734 15.6531L12.075 3.60273C11.7429 3.39937 11.3625 3.28835 10.9732 3.28114C10.5838 3.27393 10.1996 3.37079 9.86016 3.56172C9.52398 3.74968 9.24393 4.0238 9.04882 4.35588C8.8537 4.68796 8.75056 5.06601 8.75 5.45117V29.5492C8.75253 30.127 8.98438 30.6801 9.39458 31.0869C9.80478 31.4938 10.3597 31.7211 10.9375 31.7189C11.3408 31.7188 11.7362 31.6076 12.0805 31.3977L31.7734 19.3473C32.09 19.1543 32.3516 18.8832 32.5331 18.56C32.7146 18.2368 32.81 17.8723 32.81 17.5016C32.81 17.1308 32.7146 16.7664 32.5331 16.4431C32.3516 16.1199 32.09 15.8488 31.7734 15.6559V15.6531ZM10.9375 29.5232V5.46894L30.6018 17.5002L10.9375 29.5232Z" fill="black"/>
+                                </svg>
+                            </button>
+
+                            <button onclick="next()" class="next">NEXT <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 35 35" fill="none">
+                                <path opacity="0.16" d="M30.625 14.9743C32.569 16.0972 32.569 18.903 30.625 20.026L17.5 27.6035C15.556 28.7264 13.125 27.3235 13.125 25.0776V9.92262C13.125 7.67678 15.556 6.27387 17.5 7.39679L30.625 14.9743Z" fill="black"/>
+                                <path d="M13.125 25.0776L8.75 27.6035C6.80604 28.7264 4.375 27.3235 4.375 25.0776V9.92262C4.375 7.67678 6.80604 6.27387 8.75 7.39679L13.125 9.92262M13.125 25.0776V9.92262M13.125 25.0776C13.125 27.3235 15.556 28.7264 17.5 27.6035L30.625 20.026C32.569 18.903 32.569 16.0972 30.625 14.9743L17.5 7.39679C15.556 6.27387 13.125 7.67678 13.125 9.92262" stroke="black" stroke-width="2" stroke-linejoin="round"/>
+                                </svg>
+                            </button>
+                        </div>
+                </div>
+
+
+                    <div class="lyric1">
+                       <div class="border-spec">
+                        <span class="lyric-head">A B C Song </span>
+                        <br>
+                        <br>
+                        A B C D E F G<br>
+                        H I J K L M N O P<br>
+                        Q R S T U V<br>
+                        W X Y Z<br>
+                        Now I know my A, B, C<br>
+                        Next time won't you sing with me?<bR>
+                        A B C D E F G<br>
+                        H I J K L M N O P<br>
+                        Q R S T U V<br>
+                        W X Y Z<br>
+                        Now I know my A, B, C<br>
+                        Next time won't you sing with me?<br>
+                        <br>
+                        ***********
+                    </div>
+                    </div>
+                   
+
+                   
+                    <div class="lyric2 hidden">
+                        <span class="lyric-head">Twinkle Twinkle Little Star</span>
+                        <br>
+                        <br>
+                        Twinkle twinkle little star.<br>
+                        How I wonder what you are.<br>
+                        Up above the world so high.<br>
+                        Like a diamond in the sky.<br>
+                        Twinkle twinkle little star.<br>
+                        How I wonder what you are.<br>
+                        
+                        Twinkle twinkle little star.<br>
+                        How I wonder what you are.<br>
+                        Up above the world so high.<br>
+                        Like a diamond in the sky.<br>
+                        Twinkle twinkle little star.<br>
+                        How I wonder what you are.<br>
+                        <br>
+                        ***********
+                    </div>
+              
+                
+                
+                
+                    <div class="lyric3 hidden">
+                        <span class="lyric-head">The Farmer in the Dell </span>
+                        <br>
+                        <br>The farmer in the dell.<br>
+                        The farmer in the dell.<br>
+                        Hi-ho, the derry-o<br>
+                        The farmer in the dell.<br>
+                        <br>
+                        The farmer milks the cow.<br>
+                        The farmer milks the cow.<br>
+                        Hi-ho, the derry-o<br>
+                        The farmer milks the cow.<br>
+                        <br>
+                        The farmer feeds the pigs.<br>
+                        The farmer feeds the pigs.<br>
+                        Hi-ho, the derry-o<br>
+                        The farmer feeds the pigs.<br>
+                        <br>
+                        The farmer gathers eggs.<br>
+                        The farmer gathers eggs.<br>
+                        Hi-ho, the derry-o<br>
+                        The farmer gathers eggs.<br>
+                        <br>
+                        The farmer plants the seeds.<br>
+                        The farmer plants the seeds.<br>
+                        Hi-ho, the derry-o<br>
+                        The farmer plants the seeds.<br>
+                        <br>
+                        The farmer picks the corn.<br>
+                        The farmer picks the corn.<br>
+                        Hi-ho, the derry-o<br>
+                        The farmer picks the corn.<br>
+                        <br>
+                        The farmer in the dell.<br>
+                        The farmer in the dell.<br>
+                        Hi-ho, the derry-o<br>
+                        The farmer in the dell.<br>
+                <br>********        
+                    </div>
+                
+                
+                
+                
+                    <div class="lyric4 hidden">
+                        <span class="lyric-head">Hickory dickory dock </span>
+                        <br>
+                        <br>
+                        Hickory dickory dock,<br>
+                The mouse ran up the clock.<br>
+                The clock struck one,<br>
+                And down he run,<br>
+                Hickory dickory dock.<br>
+                <br>
+                ********* 
+                    </div>
+                
+                    
+                
+                    <div class="lyric5 hidden">
+                        <span class="lyric-head">Five Little Ducks </span>
+                        <br>
+                        <br>
+                        
+                Five little ducks went out one day <br>
+                Over the hill and far away<br>
+                Mother duck said, "Quack, quack, quack, quack"<br>
+                But only four little ducks came back<br>
+                1, 2, 3, 4<br>
+                <br>
+                Four little ducks went out one day<br>
+                Over the hill and far away<br>
+                Mother duck said, "Quack, quack, quack, quack"<br>
+                But only three little ducks came back<br>
+                1, 2, 3<br>
+                <br>
+                Three little ducks went out one day<br>
+                Over the hill and far away<br>
+                Mother duck said, "Quack, quack, quack, quack"<br>
+                But only two little ducks came back<br>
+                1, 2<br>
+                <br>
+                Two little ducks went out one day<br>
+                Over the hill and far away<br>
+                Mother duck said, "Quack, quack, quack, quack"<br>
+                But only one little duck came back<br>
+                1<br>
+                <br>
+                One little duck went out one day<br>
+                Over the hill and far away<br>
+                Mother duck said, "Quack, quack, quack, quack"<br>
+                But none of the five little ducks came back<br>
+                <br>
+                Sad mother duck went out one day<br>
+                Over the hill and far away<br>
+                Mother duck said, "Quack, quack, quack, quack"<br>
+                And all of five little ducks came back<br>
+                <br>
+                Five little ducks went out to play<br>
+                Over the hill and far away<br>
+                Mother duck said, “Quack, quack, quack, quack"<br>
+                And all of the five little ducks came back!<br>
+                
+                <br>
+                ********* 
+                    </div>
+
+    
+   
+    </div>
+
+
+
+    </div>
+
+    <div class="footer">
+        <div class="footer-container">
+            <img src="../../image/Oak Tree.svg"  loading="lazy" alt="Logo" class="responsive-img">
+            <p>Kid's Garden</p>
+        </div>
+
+       <div class="para">
+        <p>Our Kids Garden helps children reach their full potential 
+            through interactive games and engaging learning materials.</p>
+        
+            <div>
+                <p>subcribe to get updated</p>
+                <p>Design and code by</p>
+                <p>Team Oreo</p>
+            </div>
+        </div>
+
+        
+    
+    <div class="copyright">
+        <hr>
+            <div class="social-media">
+            <p>&copy;Team Oreo All Rights Reserved 2024</p>
+            <div>
+            <a href="https://www.linkedin.com" target="_blank" class="social-icon"><i class="fab fa-linkedin"></i></a>
+            <a href="https://www.instagram.com" target="_blank" class="social-icon"><i class="fab fa-instagram"></i></a>
+        </div>
+        </div>
+    </div>
+        
+    </div>
+    <script>
+        function scrollToFooter() {
+    // Scroll to the footer section on the home page
+    document.querySelector('#footer-design').scrollIntoView({ behavior: 'smooth' });
+}
+        var count = 0;
+        function play(count) {
+            switch (count) {
+                case 0:
+                    
+            document.querySelector('.play1').play();
+                    break;
+                case 1:
+                    
+            document.querySelector('.play2').play();
+                    break;
+                case 2:
+                    
+            document.querySelector('.play3').play();
+                    break;
+                case 3:
+                    
+            document.querySelector('.play4').play();
+                    break;
+                case 4:
+                    
+            document.querySelector('.play4').play();
+                    break;
+            
+                default:
+                    break;
+            }
+            document.querySelector('.pause').classList.remove('hidden');
+            document.querySelector('.play').classList.add('hidden');
+        }
+
+        function pause(count) {
+            switch (count) {
+                case 0:
+            document.querySelector('.play1').pause();
+                    break;
+                case 1:
+            document.querySelector('.play2').pause();
+                    break;
+                case 2:
+            document.querySelector('.play3').pause();
+                    break;
+                case 3:
+            document.querySelector('.play4').pause();
+                    break;
+                case 4:
+            document.querySelector('.play5').pause();
+                    break;
+
+            
+                default:
+                    break;
+            }
+            document.querySelector('.pause').classList.add('hidden');
+            document.querySelector('.play').classList.remove('hidden');
+        }
+        function next() {
+            if (count<5) {
+                count++;
+                toggle(count);
+                pause(count-1);
+            }else{
+                count=4;
+                toggle(count);
+                pause(count-1);
+            }
+        }
+        function pre() {
+            if (count>0) {
+                count--;
+                toggle(count);
+                pause(count+1);
+            }else{
+                count=0;
+                toggle(count);
+                pause(count+1);
+            }
+        }
+        function toggle(params) {
+            switch (params) {
+                case 0:
+            document.querySelector('.lyric1').classList.remove('hidden');
+            document.querySelector('.lyric2').classList.add('hidden');
+                    
+            document.querySelector('.play1').classList.remove('hidden');
+            document.querySelector('.play2').classList.add('hidden');
+                    break;
+                case 1:
+            document.querySelector('.lyric1').classList.add('hidden');
+            document.querySelector('.lyric2').classList.remove('hidden');
+            document.querySelector('.lyric3').classList.add('hidden');
+                    
+            document.querySelector('.play1').classList.add('hidden');
+            document.querySelector('.play2').classList.remove('hidden');
+            document.querySelector('.play3').classList.add('hidden');
+                    break;
+                    
+                case 2:
+            document.querySelector('.lyric2').classList.add('hidden');
+            document.querySelector('.lyric3').classList.remove('hidden');
+            document.querySelector('.lyric4').classList.add('hidden');
+                    
+            document.querySelector('.play2').classList.add('hidden');
+            document.querySelector('.play3').classList.remove('hidden');
+            document.querySelector('.play4').classList.add('hidden');
+                    break;
+                    
+                    case 3:
+                document.querySelector('.lyric3').classList.add('hidden');
+                document.querySelector('.lyric4').classList.remove('hidden');
+            document.querySelector('.lyric5').classList.add('hidden');
+                        
+                document.querySelector('.play3').classList.add('hidden');
+                document.querySelector('.play4').classList.remove('hidden');
+            document.querySelector('.play5').classList.add('hidden');
+                        break;
+                    
+                    case 4:
+                document.querySelector('.lyric4').classList.add('hidden');
+                document.querySelector('.lyric5').classList.remove('hidden');
+                        
+                document.querySelector('.play4').classList.add('hidden');
+                document.querySelector('.play5').classList.remove('hidden');
+                        break;
+            
+                default:
+                    break;
+            }
+        }
+        
+    </script>
+</body>
+</html>

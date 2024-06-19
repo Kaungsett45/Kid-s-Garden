@@ -1,0 +1,137 @@
+
+.section{
+   max-width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    height: auto;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    margin-top: 4%;
+    padding:10px;
+   
+    
+}
+.buttons button{
+    background-color: #60BE92;
+    font-weight:bold;
+    color:white;
+}
+svg{
+    color:white;
+}
+.buttons{
+    display: flex;
+    width: 700px;
+    height: 50px;
+    justify-content: space-between;
+}
+.next{
+    width: 170px;
+    outline: 0;
+grid-gap: 8px;
+align-items: center;
+background: 0 0;
+border: 1px solid #000;
+border-radius: 4px;
+cursor: pointer;
+display: inline-flex;
+flex-shrink: 0;
+font-size: 16px;
+gap: 8px;
+justify-content: center;
+line-height: 1.5;
+overflow: hidden;
+padding: 12px 25px;
+text-decoration: none;
+text-overflow: ellipsis;
+transition: all .14s ease-out;
+white-space: nowrap;
+            
+}
+
+.next:hover {
+box-shadow: 4px 4px 0 #000;
+transform: translate(-4px,-4px);
+}
+.next:focus-visible{
+outline-offset: 1px;
+}
+/* .border-spec{
+    padding-top:4%;
+    scroll-behavior: auto;
+}
+
+.lyric1, .lyric2, .lyric3, .lyric4, .lyric5{
+    text-align: center;
+    margin-top:2%;
+    width: 80%;
+    height:500px;
+    font-family: serif;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 25px;
+    background-image: url(./border1.jpg);
+    background-repeat : no-repeat;
+    background-position: center;
+    background-size:60% auto;
+   
+    
+} */
+.border-spec {
+    padding-top: 4%;
+    scroll-behavior: auto; /* Not necessary for containing content within borders */
+    overflow: hidden; /* Prevents content from overflowing */
+}
+
+.lyric1, .lyric2, .lyric3, .lyric4, .lyric5 {
+    text-align: center;
+    margin-top: 2%;
+    width: 80%;
+    height: 500px;
+    font-family: serif;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 25px;
+    
+    overflow: scroll; /* Prevents content from overflowing */
+}
+
+.lyric1::-webkit-scrollbar {
+display: none;
+}
+.lyric2::-webkit-scrollbar {
+display: none;
+}
+.lyric3::-webkit-scrollbar {
+display: none;
+}
+.lyric4::-webkit-scrollbar {
+display: none;
+}
+.lyric5::-webkit-scrollbar {
+display: none;
+}
+.lyric-head{
+
+font-family: serif;
+font-size: 25px;
+font-weight: bolder;
+    text-decoration: underline;
+    margin-bottom: 20px;
+}
+
+.hidden{
+display: none;
+}
+
+
+
+
+
+
+
+

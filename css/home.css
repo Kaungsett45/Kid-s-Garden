@@ -25,7 +25,7 @@ body {
     top: 0;
     background-color: white;
     
-   
+    border-bottom: 1px solid black;
     z-index: 2000;
 }
 .menu-list-none .text ,.menu-list-one .text {
