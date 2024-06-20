@@ -6,6 +6,10 @@
     height: auto;
 }
 
+video{
+    width: 80%;
+    height:100%;
+}
 .container{
     display: flex;
     flex-direction: column;
@@ -25,7 +29,7 @@ svg{
 }
 .buttons{
     display: flex;
-    width: 700px;
+   max-width:50%;
     height: 50px;
     justify-content: space-between;
 }
