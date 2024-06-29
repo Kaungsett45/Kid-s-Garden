@@ -1,12 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Grade 1</title>
-    
-  </head>
-  <style>
+
     .background {
       margin: 0px;
       padding: 0px;
@@ -29,7 +21,6 @@
       z-index: 100;
       top: 50px;
       left: 390px;
-
       transform: translateX(-200%);
       opacity: 0;
       animation: slide-in-anim 1.5s ease-out forwards;
@@ -41,83 +32,85 @@
     .player1 {
       position: absolute;
       background-color: #ffffff00;
-      width: 138px;
-      height: 29px;
-      top: 8px;
-      left: 52px;
-
+      width: 50px;
+      height: 20px;
+      top: 68px;
+      left: 155px;
       cursor: url("pointer.svg"), auto;
     }
     .player2 {
       position: absolute;
       background-color: #ffffff00;
-      width: 86px;
-      height: 21px;
-      top: 11px;
-      left: 283px;
-
+      width: 50px;
+      height: 20px;
+      top: 90px;
+      left: 303px;
       cursor: url("pointer.svg"), auto;
     }
     .player3 {
       position: absolute;
       background-color: #ffffff00;
-      width: 134px;
-      height: 128px;
-      top: 230px;
-      left: 45px;
-
+      width: 169px;
+      height: 54px;
+      top: 126px;
+      left: 153px;
       cursor: url("pointer.svg"), auto;
     }
     .player4 {
       position: absolute;
       background-color: #ffffff00;
-      width: 132px;
-      height: 128px;
-      top: 230px;
+      width: 169px;
+      height: 54px;
+      top: 193px;
       left: 184px;
-
       cursor: url("pointer.svg"), auto;
     }
     .player5 {
       position: absolute;
       background-color: #ffffff00;
-      width: 134px;
-      height: 128px;
-      top: 230px;
-      left: 321px;
-
+      width: 169px;
+      height: 24px;
+      top: 263px;
+      left: 154px;
       cursor: url("pointer.svg"), auto;
     }
     .player6 {
       position: absolute;
       background-color: #ffffff00;
-      width: 134px;
-      height: 128px;
-      top: 365px;
-      left: 45px;
-
+      width: 120px;
+      height: 24px;
+      top: 305px;
+      left: 154px;
       cursor: url("pointer.svg"), auto;
     }
     .player7 {
       position: absolute;
       background-color: #ffffff00;
-      width: 132px;
-      height: 128px;
-      top: 365px;
-      left: 184px;
-
+      width: 70px;
+      height: 24px;
+      top: 347px;
+      left: 284px;
       cursor: url("pointer.svg"), auto;
     }
     .player8 {
       position: absolute;
       background-color: #ffffff00;
-      width: 134px;
-      height: 128px;
-      top: 365px;
-      left: 321px;
-
+      width: 116px;
+      height: 24px;
+      top: 386px;
+      left: 239px;
       cursor: url("pointer.svg"), auto;
     }
+    .player9 {
+      position: absolute;
+      background-color: #ffffff00;
+      width: 92px;
+      height: 24px;
+      top: 423px;
+      left: 154px;
+      cursor: url("pointer.svg"), auto;
+    }
+
     h1 {
       position: relative;
       text-align: center;
@@ -139,9 +132,7 @@
       text-align: center;
     }
     button {
-      text-decoration: none;
       margin: 20px;
-      z-index: 1500;
     }
     .custom-btn {
       width: 130px;
@@ -272,12 +263,16 @@
       left: 150px;
       z-index: 1000;
     }
-
     .next {
       position: absolute;
       top: 300px;
       left: 950px;
       z-index: 1000;
+    }
+    a {
+      position: absolute;
+      width: 130px;
+      height: 40px;
     }
 
     @keyframes slide-in-anim {
@@ -290,96 +285,3 @@
         transform: translateX(0%);
       }
     }
-  </style>
-  <body>
-    <a href="G1page4.html"
-      ><button class="custom-btn btn-16 next">NEXT</button></a
-    >
-    <a href="G1page2.html"
-      ><button class="custom-btn btn-16 pre">PREVIOUS</button></a
-    >
-    <!-- SOUND -->
-    <audio id="play1">
-      <source src="g1sound/3play1.mp3" type="audio/mp3" />
-    </audio>
-
-    <audio id="play2">
-      <source src="g1sound/3play2.mp3" type="audio/mp3" />
-    </audio>
-    <audio id="play3">
-      <source src="g1sound/2play6.mp3" type="audio/mp3" />
-    </audio>
-
-    <audio id="play4">
-      <source src="g1sound/2play8.mp3" type="audio/mp3" />
-    </audio>
-    <audio id="play5">
-      <source src="g1sound/2play4.mp3" type="audio/mp3" />
-    </audio>
-
-    <audio id="play6">
-      <source src="g1sound/2play1.mp3" type="audio/mp3" />
-    </audio>
-    <audio id="play7">
-      <source src="g1sound/2play7.mp3" type="audio/mp3" />
-    </audio>
-
-    <audio id="play8">
-      <source src="g1sound/2play3.mp3" type="audio/mp3" />
-    </audio>
-
-    <img class="background" src="backgroundimg.jpg" alt="" />
-    <div class="home">
-      <a href="../../../view/home.html"
-        ><img class="home-png" src="Homepage.png" alt="home"
-      /></a>
-    </div>
-    <div class="page">
-      <img class="page_1" src="g1image/g1page3.png" alt="" />
-    </div>
-    <div class="boxes">
-      <div onclick="player(1)" class="player1"></div>
-      <div onclick="player(2)" class="player2"></div>
-      <div onclick="player(3)" class="player3"></div>
-      <div onclick="player(4)" class="player4"></div>
-      <div onclick="player(5)" class="player5"></div>
-      <div onclick="player(6)" class="player6"></div>
-      <div onclick="player(7)" class="player7"></div>
-      <div onclick="player(8)" class="player8"></div>
-    </div>
-
-    <script>
-      function player(params) {
-        switch (params) {
-          case 1:
-            document.getElementById("play1").play();
-            break;
-          case 2:
-            document.getElementById("play2").play();
-            break;
-          case 3:
-            document.getElementById("play3").play();
-            break;
-          case 4:
-            document.getElementById("play4").play();
-            break;
-          case 5:
-            document.getElementById("play5").play();
-            break;
-          case 6:
-            document.getElementById("play6").play();
-            break;
-          case 7:
-            document.getElementById("play7").play();
-            break;
-          case 8:
-            document.getElementById("play8").play();
-            break;
-
-          default:
-            break;
-        }
-      }
-    </script>
-  </body>
-</html>
