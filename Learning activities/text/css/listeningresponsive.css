@@ -1,0 +1,33 @@
+
+
+@media only screen and (min-width: 300px) and (max-width: 379px){
+
+    body{
+        background-image: url(../backgroundimg.jpg);
+        background-repeat: no-repeat;
+        background-position: fit;
+        background-size: 100% 100dvh;
+    }
+    .page{
+        width:98%;
+    
+    }
+    .page img{
+        width: 100%;
+    }
+    .home {
+      
+         color: white;
+        cursor: pointer;
+      }
+    .home a img{
+        max-width: 16%;
+    }
+    .btn-16 {
+        border:2px solid red;
+        border: none;
+        color: #000;
+        background-color: #fff;
+      }
+   
+    }

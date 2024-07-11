@@ -5,12 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Grade 1</title>
     <link rel="stylesheet" href="./css/listening.css">
+    
+    <link rel="stylesheet" href="./css/listeningresponsive.css">
   </head>
   
   <body>
-    <a href="G1page2.html"
-      ><button class="custom-btn btn-16 next">NEXT</button></a
-    >
+    <div class="home">
+      <a href="../../index.html"
+        ><img class="home-png" src="Homepage.png" alt="home"
+      /></a>
+    </div>
+
+   
     <!-- <a href="G1page1.html"><button class="custom-btn btn-16 pre">PREVIOUS</button></a> -->
     <!-- SOUND -->
     <audio id="play1">
@@ -45,12 +51,8 @@
       <source src="g1sound/play9.mp3" type="audio/mp3" />
     </audio>
 
-    <img class="background" src="backgroundimg.jpg" alt="" />
-    <div class="home">
-      <a href="../../../view/home.html"
-        ><img class="home-png" src="Homepage.png" alt="home"
-      /></a>
-    </div>
+    <!-- <img class="background" src="backgroundimg.jpg" alt="" /> -->
+   
     <div class="page">
       <img class="page_1" src="g1image/g1page1.png" alt="" />
     </div>
@@ -66,6 +68,10 @@
       <div onclick="player(9)" class="player9"></div>
     </div>
 
+
+    <a href="G1page2.html"
+    ><button class="custom-btn btn-16 next">NEXT</button></a
+  >
     <script>
       function player(params) {
         switch (params) {
